@@ -10,12 +10,10 @@ import Quiz from "../Quiz/Quiz";
 import MyDetails from "../MyDetails/MyDetails";
 import MySkills from "../MySkills/MySkills";
 import ScheduleReminder from "../ScheduleReminder/ScheduleReminder";
-<<<<<<< Updated upstream
-=======
 import PageNotFound from "../PageNotFound/PageNotFound";
 import RegistrationSuccess from "../Registration/RegistrationSuccess";
 import { Link } from "react-router-dom/cjs/react-router-dom";
->>>>>>> Stashed changes
+
 
 export default props => (
   <HashRouter>
@@ -31,11 +29,8 @@ export default props => (
       <Route exact path="/mydetails" component={MyDetails} />
       <Route exact path="/myskills" component={MySkills} />
       <Route exact path="/schedulereminder" component={ScheduleReminder} />
-<<<<<<< Updated upstream
-=======
       <Route exact path="/registrationsuccess" component={RegistrationSuccess} />
       <Route component={PageNotFound} />
->>>>>>> Stashed changes
     </Switch>
   </HashRouter>
 );
