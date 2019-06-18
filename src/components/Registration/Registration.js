@@ -228,7 +228,7 @@ class Registration extends Component {
                   variant="contained"
                   color="secondary"
                   component={Link}
-                  to={{ pathname: "/home" }}
+                  to={{ pathname: "/registrationsuccess" }}
                 >
                   Enter
                 </Button>

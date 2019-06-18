@@ -14,7 +14,6 @@ import PageNotFound from "../PageNotFound/PageNotFound";
 import RegistrationSuccess from "../Registration/RegistrationSuccess";
 import { Link } from "react-router-dom/cjs/react-router-dom";
 
-
 export default props => (
   <HashRouter>
     <Switch>
